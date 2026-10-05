@@ -1,0 +1,42 @@
+/*
+Descricao: Aula 11 - Tabelas e Dados Tabulados
+nome_arquivo: style.css
+nome_exercicio: Aula 11 - Tabelas e Dados Tabulados
+nome_aluno: Lucas Samoel Bento de Farias
+email_aluno: lucas.farias5@aluno.cps.sp.gov.br
+turma: WEBI-ISW028-A
+-->Descricao: Aula 11 - Tabelas e Dados Tabulados
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink ;
+}
+header{
+    color: white;
+    background-color: rgb(182, 42, 66);
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    font-weight: 400;
+    font-size: 20px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    border-collapse: collapse;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    font-family: 'Poppins', sans-serif;
+}
+td img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(182, 42, 66);
+}
